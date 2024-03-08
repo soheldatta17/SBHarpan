@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundamental Rights</title>
+    <script src="https://kit.fontawesome.com/febbf2e5b0.js" crossorigin="anonymous"></script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            /* margin: 20px; */
+            padding: 0;
+            background-color: #1d1818;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+            box-sizing: border-box;
+        }
+
+
+        nav {
+            background: #1d1818;
+            height: 80px;
+            width: 100%;
+            position: sticky;
+            background-image: url(f86d4605e4013746b8a28b8149d914d8.jpg);
+            background-size: cover;
+        }
+
+        label.logo {
+            color: rgb(190, 190, 190);
+            font-size: 35px;
+            line-height: 80px;
+            padding: 0 100px;
+            font-weight: bold;
+        }
+
+        nav ul {
+            float: right;
+            margin-right: 20px;
+            opacity: 0.8;
+        }
+
+        nav ul li {
+            display: inline-block;
+            line-height: 80px;
+            margin: 0 5px;
+        }
+
+        nav ul li a {
+            color: white;
+            font-size: 17px;
+            padding: 7px 13px;
+            border-radius: 3px;
+            text-transform: uppercase;
+        }
+
+        a.active,
+        a:hover {
+            background: #3d3838;
+            transition: .5s;
+        }
+
+        .checkbtn {
+            font-size: 30px;
+            color: white;
+            float: right;
+            line-height: 80px;
+            margin-right: 40px;
+            cursor: pointer;
+            display: none;
+        }
+
+        #check {
+            display: none;
+        }
+
+        @media(max-width:952px) {
+            label.logo {
+                font-size: 30px;
+                padding-left: 50px;
+            }
+
+            nav ul li a {
+                font-size: 16px;
+            }
+        }
+
+        @media(max-width:858px) {
+            .checkbtn {
+                display: block;
+            }
+
+            ul {
+                position: fixed;
+                width: 100%;
+                height: 100vh;
+                background: #2c3e50;
+                font-size: 16px;
+                top: 80px;
+                left: -100%;
+                text-align: center;
+                transition: all;
+            }
+
+            nav ul li {
+                display: block;
+                margin: 50px 0;
+                line-height: 30px;
+            }
+
+            nav ul li a {
+                font-size: 20px;
+            }
+
+            a:hover,
+            a.active {
+                background: none;
+                color: #0082e6;
+            }
+
+            #check:checked~ul {
+                left: 0;
+            }
+        }
+
+        header {
+            text-align: center;
+            background-color: #1d1818;
+            color: #fff;
+            padding: 10px;
+        }
+
+        section {
+            margin: 20px;
+        }
+
+        summary {
+            cursor: pointer;
+            color: white;
+            font-weight: 500;
+        }
+
+        li {
+            color: white;
+            font-size: medium;
+        }
+
+        article {
+            /* background-image: url(240_F_575225818_PQ2ZPHFw51yCcmieutB5bT843nPAPzo3.jpg); */
+            background-color: #757575;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        h2 {
+            color: #1d1818;
+        }
+
+        p {
+            color: rgb(255, 255, 255);
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fa-regular fa-bars"></i>
+        </label>
+        <label class="logo">Laws</label>
+        <ul class="active">
+            <!-- <li><a href="index.html">Home</a></li> -->
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Article.html">Articles</a></li>
+            <li><a href="#">Chat</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+    </nav>
+    <br>
+    <header>
+        <h1>Fundamental Rights</h1>
+    </header>
+
+    <section>
+        <article>
+            <h2>Right to Equality</h2>
+            <br>
+            <p>Every citizen is equal before the law and has the right to equal protection and benefit of
+                thr law.
+                <br><br>
+                Article 14: Equality before law <br>
+                Article 15: Prohibition of discrimination on grounds of religion, <br>
+                Article 16: Provides equal employment opportunities in State service for all citizens. <br>
+                Article 17: Prohibits the practice of untouchability. <br>
+                Article 18: Abolishes titles. <br>
+            </p>
+            </details>
+
+        </article>
+
+        <article>
+            <h2>Right to Freedom</h2>
+            <br>
+
+            <p> Includes freedom of speech and expression, freedom to assemble peacefully, and freedom to move
+                freely
+                throughout the territory of India. </p>
+        </article>
+
+        <article>
+            <h2>Right Against Exploitation</h2>
+            <br>
+            <p> Prohibits all forms of forced labor and child labor. </p>
+            </details>
+        </article>
+
+        <article>
+            <h2>Right to Freedom of Religion</h2>
+            <br>
+
+            <p> Ensures the freedom of conscience and the right to freely profess, practice, and propagate
+                religion.</p>
+            </details>
+        </article>
+
+        <article>
+            <h2>Cultural and Educational Rights</h2>
+            <br>
+            <p>Protects the right of any section of citizens to conserve their culture, language, or script, and
+                right
+                to education.</p>
+        </article>
+
+        <!-- Add more articles for other fundamental rights with explanations -->
+
+    </section>
+
+</body>
+
+</html>

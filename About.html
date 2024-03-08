@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Fundamental Rights Website</title>
+    <script src="https://kit.fontawesome.com/febbf2e5b0.js" crossorigin="anonymous"></script>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1d1818;
+            /* Dark background color */
+            color: #fff;
+            /* White text color */
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            text-decoration: none;
+            box-sizing: border-box;
+        }
+
+        nav {
+            background: #1d1818;
+            height: 80px;
+            width: 100%;
+            position: sticky;
+            background-image: url(f86d4605e4013746b8a28b8149d914d8.jpg);
+            background-size: cover;
+        }
+
+        label.logo {
+            color: rgb(190, 190, 190);
+            font-size: 35px;
+            line-height: 80px;
+            padding: 0 100px;
+            font-weight: bold;
+        }
+
+        nav ul {
+            float: right;
+            margin-right: 20px;
+            opacity: 0.8;
+        }
+
+        nav ul li {
+            display: inline-block;
+            line-height: 80px;
+            margin: 0 5px;
+        }
+
+        nav ul li a {
+            color: white;
+            font-size: 17px;
+            padding: 7px 13px;
+            border-radius: 3px;
+            text-transform: uppercase;
+        }
+
+        a.active,
+        a:hover {
+            background: #3d3838;
+            transition: .5s;
+        }
+
+        .checkbtn {
+            font-size: 30px;
+            color: white;
+            float: right;
+            line-height: 80px;
+            margin-right: 40px;
+            cursor: pointer;
+            display: none;
+        }
+
+        #check {
+            display: none;
+        }
+
+        @media(max-width:952px) {
+            label.logo {
+                font-size: 30px;
+                padding-left: 50px;
+            }
+
+            nav ul li a {
+                font-size: 16px;
+            }
+        }
+
+        @media(max-width:858px) {
+            .checkbtn {
+                display: block;
+            }
+
+            ul {
+                position: fixed;
+                width: 100%;
+                height: 100vh;
+                background: #2c3e50;
+                font-size: 16px;
+                top: 80px;
+                left: -100%;
+                text-align: center;
+                transition: all;
+            }
+
+            nav ul li {
+                display: block;
+                margin: 50px 0;
+                line-height: 30px;
+            }
+
+            nav ul li a {
+                font-size: 20px;
+            }
+
+            a:hover,
+            a.active {
+                background: none;
+                color: #0082e6;
+            }
+
+            #check:checked~ul {
+                left: 0;
+            }
+        }
+
+
+        .container {
+            width: 80%;
+            margin: 50px auto;
+            background-color: #575555;
+            /* Container background color */
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(255, 255, 255, 0.1);
+            text-align: left;
+        }
+
+        #heading {
+            font-size: 30px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+            margin-bottom: 20px;
+        }
+
+        @media only screen and (max-width: 600px) {
+            .container {
+                width: 90%;
+                padding: 20px;
+            }
+
+            h1 {
+                font-size: 28px;
+            }
+
+            p {
+                font-size: 16px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fa-regular fa-bars"></i>
+        </label>
+        <label class="logo">Laws</label>
+        <ul class="active">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="About.html">About</a></li>
+            <li><a href="Article.html">Articles</a></li>
+            <li><a href="#">Chat</a></li>
+            <li><a href="feedback.html">Feedback</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <h1>About</h1>
+    </div>
+    <div class="container">
+        <p>The Fundamental Rights in India enshrined in part III (Article 12–35) of the Constitution of India guarantee
+            civil liberties such that all Indians can lead their lives in peace and harmony as citizens of India.
+            These rights are known as "fundamental" as they are the most essential for all-round development i.e.,
+            material, intellectual, moral and spiritual and protected by fundamental law of the land i.e. constitution.
+            These include individual rights common to most liberal democracies, such as equality before law, freedom of
+            speech and expression, freedom of association and peaceful assembly, freedom to practice religion and
+            the right to constitutional remedies for the protection of civil rights by means of writs such as habeas
+            corpus. Violations of these rights result in punishments as prescribed in the Indian Penal Code, subject
+            to discretion of the judiciary. The Fundamental Rights are defined as basic human freedoms where every
+            Indian citizen has the right to enjoy for a proper and harmonious development of personality and life.
+            These rights apply universally to all citizens of India, irrespective of their race, place of birth,
+            religion, caste or gender.
+        </p>
+    </div>
+    <div class="container">
+        <p id="heading"><em>The six fundamental rights are:</em></p>
+    </div>
+    <div class="container">
+        <p>1.Right to equality (Article 14–18)</p>
+        <p>The right to equality is one of the important fundamental rights of the Indian Constitution that guarantees
+            equal rights for everyone, irrespective of religion, gender, caste, race or place of birth.
+            It ensures equal employment opportunities in the government and insures against discrimination by the State
+            in matters of employment on the basis of caste, religion, etc. This right also includes the abolition of
+            titles as well as untouchability.</p>
+    </div>
+    <div class="container">
+        <p>2.Right to freedom (Article 19–22)</p>
+        <p>Freedom is one of the most important ideals cherished by any democratic society. The Indian Constitution
+            guarantees freedom to citizens. The freedom right includes many rights such as:</p>
+
+        <p> Freedom of speech
+            Freedom of expression
+            Freedom of assembly without arms
+            Freedom of association
+            Freedom to practise any profession
+            Freedom to reside in any part of the country</p>
+        <p>Some of these rights are subject to certain conditions of state security, public morality and decency and
+            friendly relations with foreign countries. This means that the State has the right to impose reasonable
+            restrictions on them.</p>
+    </div>
+    <div class="container">
+        <p>3.Right against exploitation (Article 23–24)</p>
+        <p>This right implies the prohibition of traffic in human beings, begar, and other forms of forced labour. It
+            also implies the prohibition of employment of children in factories, etc. The Constitution prohibits the
+            employment of children under 14 years in hazardous conditions.</p>
+    </div>
+    <div class="container">
+        <p>4.Right to freedom of religion (Article 25–28)</p>
+        <p>This indicates the secular nature of Indian polity. There is equal respect given to all religions. There is
+            freedom of conscience, profession, practice and propagation of religion. The State has no official religion.
+            Every person has the right to freely practice his or her faith, and establish and maintain religious and
+            charitable institutions.</p>
+    </div>
+    <div class="container">
+        <p>5.Cultural and educational rights (Article 29–30)</p>
+        <p>These rights protect the rights of religious, cultural and linguistic minorities, by facilitating them to
+            preserve their heritage and culture. Educational rights are for ensuring education for everyone without any
+            discrimination.</p>
+    </div>
+    <div class="container">
+        <p>6.Right to constitutional remedies (Article 32–35)</p>
+        <p>The Constitution guarantees remedies if citizens’ fundamental rights are violated. The government cannot
+            infringe upon or curb anyone’s rights. When these rights are violated, the aggrieved party can approach the
+            courts. Citizens can even go directly to the Supreme Court which can issue writs for enforcing fundamental
+            rights.</p>
+    </div>
+
+</body>
+
+</html>
